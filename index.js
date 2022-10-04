@@ -1,6 +1,6 @@
 const calculate = (operation) => {
-  let val1 = parseInt(document.getElementById("firstValue").value);
-  let val2 = parseInt(document.getElementById("secondValue").value);
+  let val1 = Number(document.getElementById("firstValue").value);
+  let val2 = Number(document.getElementById("secondValue").value);
   let val3;
 
   switch (operation) {
