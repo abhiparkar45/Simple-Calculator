@@ -12,20 +12,20 @@ const calculate = (operation) => {
 
   switch (operation) {
     case "+":
-      res = val3 + val4;
-      document.getElementById("result").value = res;
+      res = (val3 + val4);
+      document.getElementById("text").innerText = `Addition is ${res}`;
       break;
     case "-":
-      res = val3 - val4;
-      document.getElementById("result").value = res;
+      res = (val3 - val4);
+      document.getElementById("text").innerText = `Substraction is ${res}`;
       break;
     case "*":
-      res = val3 * val4;
-      document.getElementById("result").value = res;
+      res = (val3 * val4);
+      document.getElementById("text").innerText = `Multiplication is ${res}`;
       break;
     case "/":
-      res = val3 / val4;
-      document.getElementById("result").value = res;
+      res = (val3 / val4);
+      document.getElementById("text").innerText = `Division is ${res}`;
       break;
   }
 };
